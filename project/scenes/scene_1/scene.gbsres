@@ -1,0 +1,49 @@
+{
+  "_resourceType": "scene",
+  "id": "93693b21-94ce-4aec-86cf-92cf99f05e7c",
+  "_index": 0,
+  "name": "Scene 1",
+  "backgroundId": "c57394d1-deab-4e69-88d6-3f9835e34a0d",
+  "tilesetId": "",
+  "width": 32,
+  "height": 32,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0067+0f3+0016+0fb+0015+0fb+003+012+0010+0fa+0016+0fb+0015+0fb+0015+0fb+001c+0f3+00c+012+008d+012+0073+012+0052+012+0099+012+009+012+00aa+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 107,
+  "y": 44,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I need to climb"
+        ],
+        "__section": "layout",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "af3dc57e-6d9d-48f0-b126-837e25371a44"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "6933d34c-a6d5-4307-847b-b4653dcca7cb"
+}

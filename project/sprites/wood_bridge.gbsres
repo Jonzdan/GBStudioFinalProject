@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "87304497-9741-400b-9244-b8940e03f7be",
+  "name": "Wood_Bridge",
+  "symbol": "sprite_wood_bridge",
+  "numFrames": 5,
+  "filename": "Wood_Bridge.png",
+  "checksum": "a01e7c28c0a1650d173e4265939bd5f7d9d5b97c",
+  "width": 80,
+  "height": 48,
+  "states": [
+    {
+      "id": "8218d49f-db16-46bc-ba2d-37048203f037",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "ef6d6f5f-fb46-4545-865f-879d3154e8cb",
+          "frames": [
+            {
+              "id": "95fa12a9-4e49-497b-90da-d5eb03e97e64",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9139688c-7eaa-42f5-9d9d-606afd8d9d1c",
+          "frames": [
+            {
+              "id": "334f24dc-ac9b-4f28-ac28-d41e60b94f38",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b982753f-79d4-411b-840c-9d0bedc07666",
+          "frames": [
+            {
+              "id": "d0181d75-d1c8-4b51-840c-1db48e168f3b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "06961246-7d15-459b-b992-ffb7fc864ad0",
+          "frames": [
+            {
+              "id": "2492913c-de61-4726-a4d6-f1a0c8625bd1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "974429f1-22bc-422c-823a-94ed50405f0f",
+          "frames": [
+            {
+              "id": "8d8ac588-05a7-48ea-8084-08391b83dcf2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b1d7b315-e850-424b-8ddc-9c01fb16f422",
+          "frames": [
+            {
+              "id": "44d24f4c-0806-4f0e-975f-9a0e38bb6391",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "74aacdb5-5e45-4834-b977-18317b06250d",
+          "frames": [
+            {
+              "id": "bdf1f533-eb04-4737-8d94-575429253dae",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "059cc8b2-f97b-4d7d-9c01-a60510191210",
+          "frames": [
+            {
+              "id": "e928b27f-d98e-4112-9bc4-ef14a33a7173",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

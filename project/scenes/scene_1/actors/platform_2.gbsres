@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "5ba12a47-7321-47e2-adcc-d57ec6183cbe",
+  "name": "Platform 2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "82347553-db65-4285-9536-25e2b88aba59",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_1",
+  "script": [
+    {
+      "command": "EVENT_PLAYER_BOUNCE",
+      "args": {
+        "height": "high"
+      },
+      "id": "f908260a-f733-4da7-be68-1fc437dbe821"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 27,
+  "_index": 1
+}
