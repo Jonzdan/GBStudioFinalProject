@@ -8,21 +8,27 @@
   "width": 32,
   "height": 32,
   "type": "PLATFORM",
-  "paletteIds": [],
-  "spritePaletteIds": [],
+  "paletteIds": [
+    null,
+    null,
+    ""
+  ],
+  "spritePaletteIds": [
+    "default-bg-1"
+  ],
   "collisions": "0067+0f3+0016+0fb+0015+0fb+003+012+0010+0fa+0016+0fb+0015+0fb+0015+0fb+001c+0f3+00c+012+008d+012+0073+012+0052+012+0099+012+009+012+00aa+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 107,
-  "y": 44,
+  "x": 104,
+  "y": 48,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I need to climb"
+          "I need to climb!\n(Try pressing Z..)"
         ],
-        "__section": "layout",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -37,9 +43,17 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "af3dc57e-6d9d-48f0-b126-837e25371a44"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "09bd25d6-c8b0-48fc-bf84-5334e04274a6"
+      },
+      "id": "7a488d54-b0c2-4257-96ae-7f00e6bd163b"
     }
   ],
   "playerHit1Script": [],

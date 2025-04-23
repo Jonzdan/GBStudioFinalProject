@@ -20,14 +20,14 @@
     "default-ui"
   ],
   "defaultSpritePaletteIds": [
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite"
+    "default-bg-3",
+    "default-bg-3",
+    "default-bg-3",
+    "default-bg-3",
+    "default-bg-3",
+    "default-bg-3",
+    "default-bg-3",
+    "default-bg-3"
   ],
   "defaultSpritePaletteId": "default-sprite",
   "defaultUIPaletteId": "default-ui",
@@ -81,7 +81,7 @@
   "customControlsSelect": [
     "Shift"
   ],
-  "colorMode": "mono",
+  "colorMode": "mixed",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
   "scriptEventPresets": {},
