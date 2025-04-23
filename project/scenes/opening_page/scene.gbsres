@@ -1,0 +1,56 @@
+{
+  "_resourceType": "scene",
+  "id": "4f022e74-836c-40a0-8cc4-0d1ce92f4385",
+  "_index": 2,
+  "name": "Opening Page",
+  "backgroundId": "d3beaa92-7d26-482b-8b2b-5ff6ea10366a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 136,
+  "y": 96,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "93693b21-94ce-4aec-86cf-92cf99f05e7c",
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "b93e9119-48e9-4905-8634-b8040daf00ca"
+          }
+        ]
+      },
+      "id": "9f18dbf5-654c-413a-9d64-c1d167079156"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
