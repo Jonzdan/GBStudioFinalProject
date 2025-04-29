@@ -31,8 +31,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "OH NO! It's Nosfe-\nrabbit! And the\nsun is rising!",
-          "Let's get the\nblood carrots &\nget out of here!"
+          "OH NO! It's Nosfe-\nrabbit! And the\nsun is rising!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -47,11 +46,36 @@
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "a",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
       "id": "b89872c5-d768-4ab1-aae5-4304f06a63b2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Let's get the\nblood carrots &\nget out of here!"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b69f5984-1186-4c49-8f08-e9b435344059"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -70,7 +94,7 @@
         "text": [
           "HP: $01$ | BOSS: $00$"
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 2,
         "maxHeight": 3,
@@ -80,7 +104,7 @@
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": true,
-        "speedIn": -1,
+        "speedIn": 0,
         "speedOut": -1,
         "closeWhen": "notModal",
         "closeButton": "a",
@@ -167,5 +191,5 @@
       "id": "a16eec98-607f-453b-a6b0-9dd921a0490f"
     }
   ],
-  "playerSpriteSheetId": "6933d34c-a6d5-4307-847b-b4653dcca7cb"
+  "playerSpriteSheetId": "77ffba48-4a80-4b15-a778-936e9bac2413"
 }
