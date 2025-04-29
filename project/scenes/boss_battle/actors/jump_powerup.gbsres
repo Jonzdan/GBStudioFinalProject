@@ -4,7 +4,7 @@
   "name": "Jump Powerup",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "spriteSheetId": "d18bf3e9-71a4-40f7-8874-9cb9c50e1870",
   "prefabId": "",
   "direction": "up",
   "moveSpeed": 1,

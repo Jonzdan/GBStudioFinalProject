@@ -2,25 +2,25 @@
   "_resourceType": "scene",
   "id": "9ab206a7-3444-48bc-a1d4-6bc98d994e74",
   "_index": 3,
-  "name": "Scene 6",
-  "backgroundId": "b005661d-e3c1-4b3e-b8d0-1a29a09d2e02",
-  "tilesetId": "",
-  "width": 32,
-  "height": 64,
   "type": "PLATFORM",
-  "paletteIds": [
-    null,
-    "default-bg-4"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "0096+01a+0027+015+0067+015+00c2+015+0027+015+00a9+015+00d4+015+0010+015+00103+015+006+015+00100+015+0031+015+0071+015+00f5+0f80+",
-  "autoFadeSpeed": 1,
+  "name": "Scene 6",
   "symbol": "scene_6",
   "x": 344,
   "y": 96,
+  "width": 32,
+  "height": 64,
+  "backgroundId": "b005661d-e3c1-4b3e-b8d0-1a29a09d2e02",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "77ffba48-4a80-4b15-a778-936e9bac2413",
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "77ffba48-4a80-4b15-a778-936e9bac2413"
+  "collisions": "0096+01a+0027+015+0067+015+00c2+015+0027+015+00a9+015+00d4+015+0010+015+00103+015+006+015+00100+015+0031+015+0071+015+00f5+0f80+"
 }

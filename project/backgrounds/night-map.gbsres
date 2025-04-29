@@ -8,5 +8,6 @@
   "imageWidth": 256,
   "imageHeight": 512,
   "filename": "night-map.png",
-  "tileColors": "02800+"
+  "tileColors": "02800+",
+  "autoColor": false
 }
