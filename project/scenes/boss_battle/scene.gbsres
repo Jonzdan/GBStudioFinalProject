@@ -31,7 +31,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I need to find a\nway to defeat the\nboss... Ground is \nlava"
+          "OH NO! It's Nosfe-\nrabbit! And the\nsun is rising!",
+          "Let's get the\nblood carrots &\nget out of here!"
         ],
         "__section": "text",
         "avatarId": "",
