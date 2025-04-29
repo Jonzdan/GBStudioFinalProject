@@ -1,0 +1,143 @@
+{
+  "_resourceType": "trigger",
+  "id": "267c5024-27a3-4fd9-9773-e5661149e667",
+  "name": "Boss Dmg Item 1",
+  "prefabId": "",
+  "x": 16,
+  "y": 19,
+  "symbol": "trigger_5",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "expression",
+                "value": "$00$ - 5"
+              }
+            },
+            "id": "07eff92f-7df9-4abc-af9b-ed2cd5e55b65"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "eb2d19a9-9ee1-4291-930d-f89e9ba3d820"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "a7010755-5f6e-4924-8b43-4a6e2ad5c07e"
+            },
+            "id": "5c553f39-a0bd-4925-86e6-715bbcf7afcc"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "HP: $01$ | BOSS: $00$"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 2,
+              "maxHeight": 3,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 1,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "434c0073-8c1b-44ac-ba64-042232591e69"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "6fd5a4e3-bae1-4e40-9273-f0471b9f9148"
+                  },
+                  "id": "87b38acf-fab3-4fd4-bf61-1054fa29112c"
+                }
+              ],
+              "false": []
+            },
+            "id": "cb94c008-f900-4a7c-98a3-6e6615b2c5d0"
+          }
+        ],
+        "false": []
+      },
+      "id": "56710e74-54a7-4ed1-ab65-fb7205d1a024"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true,
+        "actorId": "a7010755-5f6e-4924-8b43-4a6e2ad5c07e"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "a7010755-5f6e-4924-8b43-4a6e2ad5c07e"
+            },
+            "id": "30cb12b8-5ee6-4900-af97-affc483dd2a4"
+          }
+        ],
+        "false": []
+      },
+      "id": "92c86df4-c80b-42e8-a01d-05d1427234f9"
+    }
+  ],
+  "_index": 3
+}

@@ -1,0 +1,118 @@
+{
+  "_resourceType": "trigger",
+  "id": "e1b1850a-7115-4e83-8c95-d91ceb313cb8",
+  "name": "Boss Dmg Item 2",
+  "prefabId": "",
+  "x": 3,
+  "y": 16,
+  "symbol": "trigger_6",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "expression",
+                "value": "$00$ - 5"
+              }
+            },
+            "id": "ad3b4f57-fdc1-4787-ba91-17a5f6a9694f"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "c95b9d5c-5896-40bd-a6df-3b1d77dfd8f3"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "eba24b42-a0bb-4ccb-8749-273453447d86"
+            },
+            "id": "33bffb65-5084-4c2b-ba98-41e16287ad0f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "HP: $01$  | BOSS: $00$"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 2,
+              "maxHeight": 3,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 1,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "9ef78a8b-885d-4558-a0fc-41e61307f0ba"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "6fd5a4e3-bae1-4e40-9273-f0471b9f9148"
+                  },
+                  "id": "c93fd2c1-4ac5-439d-ad75-480803f384fd"
+                }
+              ],
+              "false": []
+            },
+            "id": "cf716207-724e-4615-9df9-7c55f92bea84"
+          }
+        ],
+        "false": []
+      },
+      "id": "1a63989b-3f3b-4781-bb10-cf50cf374c96"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

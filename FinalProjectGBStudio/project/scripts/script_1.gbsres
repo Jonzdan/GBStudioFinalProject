@@ -1,0 +1,18 @@
+{
+  "_resourceType": "script",
+  "id": "01456041-005b-4f90-87e5-dca397413cd1",
+  "name": "Script 1",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_START_UPDATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "e670c4d3-75cf-4955-8db5-9918f067f211"
+    }
+  ]
+}

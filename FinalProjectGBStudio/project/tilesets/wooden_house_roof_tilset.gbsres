@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "600128fc-04db-4023-b11e-9ea297e470b1",
+  "name": "Wooden_House_Roof_Tilset",
+  "symbol": "tileset_wooden_house_roof_t",
+  "width": 14,
+  "height": 10,
+  "imageWidth": 112,
+  "imageHeight": 80,
+  "filename": "Wooden_House_Roof_Tilset.png"
+}
