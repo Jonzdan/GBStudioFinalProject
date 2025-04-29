@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "4448913a-c9ae-45f9-bbdd-c8cbff50e2f5",
-  "_index": 3,
+  "_index": 1,
   "name": "Boss Battle",
   "backgroundId": "c57394d1-deab-4e69-88d6-3f9835e34a0d",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "0067+0f3+0016+0fb+0015+0fb+0015+0fa+003+012+0011+0fa+007+012+00d+0fb+0015+0fb+001c+0f2+0012+012+0076+012+004e+012+0065+012+004+012+007+012+002+012+0085+012+0030+012+0056+012+0050+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 173.33333333333331,
-  "y": 542.6666666666666,
+  "x": 696,
+  "y": 280,
   "script": [
     {
       "command": "EVENT_SET_VALUE",

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "7064f1d7-2968-43c6-a0c1-4a649e0e89aa",
-  "_index": 4,
+  "_index": 2,
   "name": "Game Over",
   "backgroundId": "c57394d1-deab-4e69-88d6-3f9835e34a0d",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
-  "x": 574.6666666666666,
-  "y": 617.3333333333334,
+  "x": 576,
+  "y": 616,
   "script": [
     {
       "command": "EVENT_TEXT",

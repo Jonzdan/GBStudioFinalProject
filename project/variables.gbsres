@@ -2,6 +2,16 @@
   "_resourceType": "variables",
   "variables": [
     {
+      "id": "0",
+      "name": "Boss Hp",
+      "symbol": "var_boss_hp_1"
+    },
+    {
+      "id": "1",
+      "name": "Health Points",
+      "symbol": "var_health_points_1"
+    },
+    {
       "id": "4def7b22-1e75-4596-b1da-8f2eee827ffe__L0",
       "name": "Jump Boost 1",
       "symbol": "var_jump_boost_1"
@@ -27,19 +37,9 @@
       "symbol": "var_b"
     },
     {
-      "id": "0",
-      "name": "Boss Hp",
-      "symbol": "var_boss_hp_1"
-    },
-    {
       "id": "e1b1850a-7115-4e83-8c95-d91ceb313cb8__L0",
       "name": "Boss Dmg 2",
       "symbol": "var_boss_dmg_2"
-    },
-    {
-      "id": "1",
-      "name": "Health Points",
-      "symbol": "var_health_points_1"
     },
     {
       "id": "21277b5b-8713-4417-859d-b4ad03ae0023__L0",

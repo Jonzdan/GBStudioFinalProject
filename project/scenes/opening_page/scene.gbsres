@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "4f022e74-836c-40a0-8cc4-0d1ce92f4385",
-  "_index": 2,
+  "_index": 0,
   "name": "Opening Page",
   "backgroundId": "d3beaa92-7d26-482b-8b2b-5ff6ea10366a",
   "tilesetId": "",
@@ -31,14 +31,14 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "93693b21-94ce-4aec-86cf-92cf99f05e7c",
+              "sceneId": "9ab206a7-3444-48bc-a1d4-6bc98d994e74",
               "x": {
                 "type": "number",
-                "value": 18
+                "value": 3
               },
               "y": {
                 "type": "number",
-                "value": 31
+                "value": 59
               },
               "direction": "",
               "fadeSpeed": "2"
