@@ -1,4 +1,50 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "4def7b22-1e75-4596-b1da-8f2eee827ffe__L0",
+      "name": "Jump Boost 1",
+      "symbol": "var_jump_boost_1"
+    },
+    {
+      "id": "6fd5a4e3-bae1-4e40-9273-f0471b9f9148__L0",
+      "name": "Boss HP",
+      "symbol": "var_boss_hp"
+    },
+    {
+      "id": "4448913a-c9ae-45f9-bbdd-c8cbff50e2f5__L1",
+      "name": "Boss Hp",
+      "symbol": "var_boss_hp_0"
+    },
+    {
+      "id": "267c5024-27a3-4fd9-9773-e5661149e667__L0",
+      "name": "Boss Dmg",
+      "symbol": "var_boss_dmg"
+    },
+    {
+      "id": "267c5024-27a3-4fd9-9773-e5661149e667__L1",
+      "name": "B",
+      "symbol": "var_b"
+    },
+    {
+      "id": "0",
+      "name": "Boss Hp",
+      "symbol": "var_boss_hp_1"
+    },
+    {
+      "id": "e1b1850a-7115-4e83-8c95-d91ceb313cb8__L0",
+      "name": "Boss Dmg 2",
+      "symbol": "var_boss_dmg_2"
+    },
+    {
+      "id": "1",
+      "name": "Health Points",
+      "symbol": "var_health_points_1"
+    },
+    {
+      "id": "21277b5b-8713-4417-859d-b4ad03ae0023__L0",
+      "name": "Boss Dmg ",
+      "symbol": "var_boss_dmg_"
+    }
+  ]
 }
