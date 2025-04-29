@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b005661d-e3c1-4b3e-b8d0-1a29a09d2e02",
+  "name": "night-map",
+  "symbol": "bg_night_map",
+  "width": 32,
+  "height": 64,
+  "imageWidth": 256,
+  "imageHeight": 512,
+  "filename": "night-map.png",
+  "tileColors": "02800+"
+}

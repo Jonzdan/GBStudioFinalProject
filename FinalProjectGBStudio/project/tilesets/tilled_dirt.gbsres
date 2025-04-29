@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "e229e31e-cb6d-46da-bafe-c8d8f06e899c",
+  "name": "Tilled_Dirt",
+  "symbol": "tileset_tilled_dirt",
+  "width": 22,
+  "height": 14,
+  "imageWidth": 176,
+  "imageHeight": 112,
+  "filename": "Tilled_Dirt.png"
+}
