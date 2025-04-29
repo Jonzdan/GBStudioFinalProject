@@ -7,21 +7,52 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "LOGO",
+  "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
-  "x": 136,
+  "x": 80,
   "y": 96,
   "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Press Any Key to \nStart..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8633a195-9424-4e46-9899-7fd3dfd300dd"
+    },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
           "b",
-          "a"
+          "a",
+          "right",
+          "down",
+          "up",
+          "start",
+          "select",
+          "left"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -43,14 +74,15 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "b93e9119-48e9-4905-8634-b8040daf00ca"
+            "id": "dd7469e5-2f2f-460c-9174-792b652d9c77"
           }
         ]
       },
-      "id": "9f18dbf5-654c-413a-9d64-c1d167079156"
+      "id": "2f9ca40f-032d-41b3-956d-97e9f74adb54"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "77ffba48-4a80-4b15-a778-936e9bac2413"
 }

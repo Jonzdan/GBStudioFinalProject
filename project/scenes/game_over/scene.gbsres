@@ -3,14 +3,14 @@
   "id": "7064f1d7-2968-43c6-a0c1-4a649e0e89aa",
   "_index": 2,
   "name": "Game Over",
-  "backgroundId": "c57394d1-deab-4e69-88d6-3f9835e34a0d",
+  "backgroundId": "3e2d567f-622d-4593-8007-6cbb941016aa",
   "tilesetId": "",
-  "width": 32,
-  "height": 32,
-  "type": "PLATFORM",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
   "x": 576,
@@ -20,7 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Game Over!"
+          "Game Over! Press \nAny Key to Return\nto Start Menu"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,6 +40,45 @@
         "closeDelayFrames": 30
       },
       "id": "ad314b24-f62e-4595-a50c-29cc25463b1d"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "start",
+          "b",
+          "select",
+          "right",
+          "down",
+          "up",
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4f022e74-836c-40a0-8cc4-0d1ce92f4385",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "0c28a4a4-bd56-4584-a8cb-7c9f960f007c"
+          }
+        ]
+      },
+      "id": "bef5d40d-18d6-4986-ae50-ddf9e793013d"
     }
   ],
   "playerHit1Script": [],
